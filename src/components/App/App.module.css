@@ -1,0 +1,40 @@
+body {
+    background-color: #212121;
+}
+
+.menu {
+    background-color: #333333;
+    border: 1px solid #333333;
+    border-radius: 10px;
+    margin: 0px 10px 10px 0px;
+}
+
+.element {
+    background-color: #333333;
+    border: 1px solid #333333;
+    border-radius: 10px;
+    color: #ffffff;
+    padding: 10px 10px 0px 10px;
+    width: 100%;
+}
+
+.wrap {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 60%;
+}
+
+.menu__link {
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu__link:hover {
+    color: darkviolet;
+}
+
+.link__text:hover {
+    background-color: #212121;
+    border-radius: 10px;
+}

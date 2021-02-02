@@ -1,0 +1,26 @@
+.todo__itemText {
+    color: #ffffff
+}
+
+.todo__itemText_done {
+    text-decoration: line-through;
+}
+
+.item__deleteButton {
+    opacity: 0;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.item__deleteButton:hover {
+    color: #f50057;
+}
+
+.todo__item:hover {
+    opacity: 1;
+    background-color: #212121;
+}
+
+.todo__item:hover .item__deleteButton {
+    opacity: 1;
+}

@@ -1,0 +1,24 @@
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 2%;
+}
+
+.footer__countActive {
+    color: white;
+}
+
+.footer__countActiveAllDone {
+    color: #4caf50;
+}
+
+.footer__clearCompleted {
+    padding: 0;
+    border: 1px solid #212121;
+    border-radius: 6px;
+}
+
+.footer__clearCompleted:hover {
+    background-color: #f50057;
+}

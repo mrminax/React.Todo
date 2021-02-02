@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@700&display=swap');
+body {
+    background-color: #212121;
+}
+
+.todo {
+    padding: 0;
+    margin: auto;
+    width: 100%;
+    background-color: #333333;
+    border: 1px solid #333333;
+    border-radius: 10px;
+}
+
+.todo__title {
+    font-size: 45px;
+    margin: 0;
+    text-align: center;
+    color: white;
+    font-family: 'Jost', sans-serif;
+}

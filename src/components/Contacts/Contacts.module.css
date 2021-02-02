@@ -1,0 +1,21 @@
+.contacts {
+    text-decoration: none;
+    color: white;
+}
+
+.contacts h1 {
+    margin-top: 0;
+}
+
+.contactsList {
+    margin-bottom: 10px
+}
+
+.contacts a {
+    color: white;
+    margin-right: 10px;
+}
+
+.contacts a:hover {
+    color: darkviolet
+}

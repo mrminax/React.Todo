@@ -1,0 +1,99 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 10px 0px 10px;
+}
+
+.wrapper a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.wrapper a:hover {
+    color: darkviolet;
+}
+
+.userInfo {
+    display: flex;
+    flex-direction: row;
+}
+
+.userInfo__header {
+    margin-top: 0;
+    text-align: center;
+}
+
+.avatar {
+    overflow: hidden;
+    border-radius: 10%;
+    width: 30%;
+    margin-right: 10px;
+    float: left;
+}
+
+.userInfo {
+    display: block;
+}
+
+.portfolioList {
+    padding: 0;
+}
+
+.portfolioItem {
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+.repoList {
+    padding: 0px 10px 0px 0px;
+    list-style-type: none;
+    height: 300px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.repoList::-webkit-scrollbar {
+    width: 10px;
+}
+
+.repoList::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 10px #212121;
+    border-radius: 10px;
+}
+
+.repoList::-webkit-scrollbar-thumb {
+    background: #212121;
+    border-radius: 10px;
+}
+
+.repoItem {
+    padding: 7px;
+    margin: 0 0 10px 0;
+    border: 2px solid #212121;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.repoItemLink {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.repoName {
+    margin-right: 10px;
+}
+
+.repoDesc {
+    font-style: italic;
+}
+
+.repoItem:hover {
+    background-color: darkviolet;
+    color: #ffffff;
+}
+
+.errorText {
+    color: #da2d2d;
+    text-align: center;
+}
